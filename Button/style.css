@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+button {
+    font-size: 2em;
+    background-color: #f5bcba;
+    border: 2px solid #ffa8a5;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+button:hover {
+    background-color: #d3a2a0;
+    color: white;
+    /* permet de ralentir le changement de couleur lorsque 
+    notre curseur rentre et sort de la zone*/
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out,
+        color 0.2s ease-in-out;
+}
+
+.block {
+    margin: 20px auto;
+    width: 400px;
+    height: 300px;
+    background-color: #a4b0bd;
+}
+.block > * {
+    padding: 10px;
+}
+ul li {
+    list-style-type: none;
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+section {
+    background-color: pink;
+    margin: 3%;
+    position: relative;
+}
+
+article {
+    background-color: blue;
+    margin: 10px;
+    padding: 20px;
+    width: 25%;
+    /* a CHANGER */
+    height: auto;
+    display: inline-block;
+}
+
+img {
+    float: left;
+}

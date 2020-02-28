@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.container {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    color: white;
+}
+h1 {
+    font-size: 6rem;
+    cursor: pointer;
+}
+.animation-bounce {
+    animation: bounce 1s;
+}
+/* translateY(70px) => en bas
+    translateY(-70px) => en haut
+    On veut le texte fait du rebond lorsqu'il touche sa position initiale comme
+    une balle */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-70px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    70% {
+        transform: translateY(-25px);
+    }
+    80% {
+        transform: translateY(2px);
+    }
+    90% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
