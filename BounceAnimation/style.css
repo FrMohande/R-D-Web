@@ -25,7 +25,7 @@ h1 {
 }
 /* translateY(70px) => en bas
     translateY(-70px) => en haut
-    On veut le texte fait du rebond lorsqu'il touche sa position initiale comme
+    On veut du rebond sur le texte lorsqu'il touche sa position initiale comme
     une balle */
 @keyframes bounce {
     0% {
